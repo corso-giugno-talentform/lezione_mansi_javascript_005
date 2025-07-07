@@ -170,3 +170,34 @@ const spesa = ['Pane', 'Latte', 'Uova', 'Pasta', 'Pomodori'];
 // • Pomodori
 
 ```
+
+### **Esercizio 5: Tabella utenti**
+
+Crea una tabella dinamica:
+
+```html
+<table id="tabella-utenti">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Email</th>
+            <th>Città</th>
+        </tr>
+    </thead>
+    <tbody id="corpo-tabella">
+    </tbody>
+</table>
+
+```
+
+```jsx
+const utenti = [
+    { nome: 'Mario', cognome: 'Rossi', email: 'mario@email.com', citta: 'Roma' },
+    { nome: 'Laura', cognome: 'Bianchi', email: 'laura@email.com', citta: 'Milano' },
+    { nome: 'Giuseppe', cognome: 'Verdi', email: 'giuseppe@email.com', citta: 'Napoli' }
+];
+
+// Riempi il tbody con i dati degli utenti
+
+```
